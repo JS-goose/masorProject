@@ -7,6 +7,9 @@ import { FooterComponent } from './components/footer/footer.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { HeaderComponent } from './components/header/header.component';
 import { TopNavbarComponent } from './components/top-navbar/top-navbar.component';
+import { MissionComponent } from './components/mission/mission.component';
+import { IndustryNewsComponent } from './components/industry-news/industry-news.component';
+import { NewsArticleComponent } from './components/industry-news/news-article/news-article.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +17,10 @@ import { TopNavbarComponent } from './components/top-navbar/top-navbar.component
     FooterComponent,
     NavbarComponent,
     HeaderComponent,
-    TopNavbarComponent
+    TopNavbarComponent,
+    MissionComponent,
+    IndustryNewsComponent,
+    NewsArticleComponent
   ],
   imports: [
     BrowserModule,
