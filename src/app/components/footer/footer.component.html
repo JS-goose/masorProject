@@ -1,1 +1,5 @@
-<p>footer works!</p>
+<footer>
+  <div *ngFor="let link of bottomNavLinks" id="bottom-links-container">
+    <a href="{{ link.link }}">{{ link.name }}</a>
+  </div>
+</footer>
