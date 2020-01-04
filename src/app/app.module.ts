@@ -12,6 +12,14 @@ import { IndustryNewsComponent } from './components/industry-news/industry-news.
 import { NewsArticleComponent } from './components/industry-news/news-article/news-article.component';
 import { TopCtaComponent } from './components/top-cta/top-cta.component';
 import { CtaCardComponent } from './components/top-cta/cta-card/cta-card.component';
+import { IdeasSectionComponent } from './components/ideas-section/ideas-section.component';
+import { ServicesSectionComponent } from './components/services-section/services-section.component';
+import { ButtonComponent } from './components/button/button.component';
+import { AboutUsComponent } from './components/about-us/about-us.component';
+import { CustomerSectionComponent } from './components/customer-section/customer-section.component';
+import { CustomerCardComponent } from './components/customer-section/customer-card/customer-card.component';
+import { FooterLinksComponent } from './components/footer/footer-links/footer-links.component';
+import { FooterSocialLinksComponent } from './components/footer/footer-social-links/footer-social-links.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +32,15 @@ import { CtaCardComponent } from './components/top-cta/cta-card/cta-card.compone
     IndustryNewsComponent,
     NewsArticleComponent,
     TopCtaComponent,
-    CtaCardComponent
+    CtaCardComponent,
+    IdeasSectionComponent,
+    ServicesSectionComponent,
+    ButtonComponent,
+    AboutUsComponent,
+    CustomerSectionComponent,
+    CustomerCardComponent,
+    FooterLinksComponent,
+    FooterSocialLinksComponent
   ],
   imports: [
     BrowserModule,
