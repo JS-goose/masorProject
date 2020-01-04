@@ -10,6 +10,8 @@ import { TopNavbarComponent } from './components/top-navbar/top-navbar.component
 import { MissionComponent } from './components/mission/mission.component';
 import { IndustryNewsComponent } from './components/industry-news/industry-news.component';
 import { NewsArticleComponent } from './components/industry-news/news-article/news-article.component';
+import { TopCtaComponent } from './components/top-cta/top-cta.component';
+import { CtaCardComponent } from './components/top-cta/cta-card/cta-card.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +22,9 @@ import { NewsArticleComponent } from './components/industry-news/news-article/ne
     TopNavbarComponent,
     MissionComponent,
     IndustryNewsComponent,
-    NewsArticleComponent
+    NewsArticleComponent,
+    TopCtaComponent,
+    CtaCardComponent
   ],
   imports: [
     BrowserModule,
