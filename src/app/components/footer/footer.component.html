@@ -1,5 +1,18 @@
 <footer>
-  <div *ngFor="let link of bottomNavLinks" id="bottom-links-container">
-    <a href="{{ link.link }}">{{ link.name }}</a>
+  <div class="bottom-links-container">
+    <a
+      *ngFor="let link of bottomNavLinks"
+      href="{{ link.link }}"
+      class="footer-links"
+      >{{ link.name }}</a
+    >
+  </div>
+  <div class="bottom-links-container">
+    <a
+      *ngFor="let link of bottomSocialLinks"
+      href="{{ link.link }}"
+      class="footer-links"
+      >{{ link.name }}</a
+    >
   </div>
 </footer>

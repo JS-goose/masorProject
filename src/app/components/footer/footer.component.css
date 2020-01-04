@@ -1,0 +1,23 @@
+footer {
+  display: flex;
+  background-color: var(--gunMetal);
+  height: 25rem;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.bottom-links-container:first-of-type {
+    flex:50%;
+}
+
+.bottom-links-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+
+
+.footer-links {
+  color: var(--cream);
+}
