@@ -1,0 +1,11 @@
+#top-nav-container {
+  background-color: var(--darkBlue);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.top-nav-links {
+  color: var(--cream);
+  text-decoration: none;
+}
