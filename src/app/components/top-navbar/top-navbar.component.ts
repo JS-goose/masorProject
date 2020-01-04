@@ -6,6 +6,28 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./top-navbar.component.css']
 })
 export class TopNavbarComponent implements OnInit {
+  topNavLinks = [
+    {
+      name: `Fixed Annuities`,
+      link: `#fixed-annuities`
+    },
+    {
+      name: `Fixed-Index Annuities`,
+      link: `#fixed-index-annuities`
+    },
+    {
+      name: `Variable Annuities`,
+      link: `#variable-annuities`
+    },
+    {
+      name: `Immediate Annuities`,
+      link: `#immediate-annuities`
+    },
+    {
+      name: `Deferred Annuities`,
+      link: `#deferred-annuities`
+    }
+  ]
 
   constructor() { }
 
