@@ -5,3 +5,8 @@
     --sectionBgBlue: #456990;
     --gunMetal: #30323d
 }
+
+body {
+    padding: 0;
+    margin: 0;
+}
