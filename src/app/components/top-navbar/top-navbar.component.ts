@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./top-navbar.component.css']
 })
 export class TopNavbarComponent implements OnInit {
-  topNavLinks = [
+  topNavLinks: {name: string, link: string}[] = [
     {
       name: `Fixed Annuities`,
       link: `#fixed-annuities`
