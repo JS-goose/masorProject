@@ -1,0 +1,19 @@
+/* TODO This needs work as it's not butting up against the top nav */
+nav {
+    background-color: var(--cream);
+    padding-top: 0;
+    margin-top: 0;
+    height: 5rem;
+}
+
+#nav-ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    font-size: 1.1rem;
+    height: 5rem;
+}
+
+.nav-links-anchor {
+    color: var(--gunMetal)
+}
