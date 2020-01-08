@@ -15,6 +15,7 @@ nav {
   background-color: var(--cream);
   padding-top: 0;
   margin-top: 0;
+  height: 80%;
 }
 
 a {
