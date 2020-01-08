@@ -1,16 +1,22 @@
 :root {
-    --darkBlue: #00487C;
-    --cream: #FFFEDF;
-    --teal: #0AA1B2;
-    --sectionBgBlue: #456990;
-    --gunMetal: #30323d
+  --darkBlue: #00487c;
+  --cream: #fffedf;
+  --teal: #0aa1b2;
+  --sectionBgBlue: #456990;
+  --gunMetal: #30323d;
 }
 
 body {
-    padding: 0;
-    margin: 0;
+  padding: 0;
+  margin: 0;
+}
+
+nav {
+  background-color: var(--cream);
+  padding-top: 0;
+  margin-top: 0;
 }
 
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
