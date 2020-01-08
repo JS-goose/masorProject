@@ -1,7 +1,8 @@
 header {
-    background: url('../../../assets/aaron-burden-cEukkv42O40-unsplash.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    height: 30rem;
+  /* Photo courtesy of Aaron Burden https://unsplash.com/@aaronburden?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText */
+  background: url("../../../assets/aaron-burden-cEukkv42O40-unsplash.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 30rem;
 }
