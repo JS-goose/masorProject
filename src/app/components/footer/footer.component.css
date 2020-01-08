@@ -1,23 +1,36 @@
+/* TODO I don't like the way this is set up - let's refactor it */
 footer {
   display: flex;
+  flex-direction: column;
   background-color: var(--gunMetal);
-  height: 25rem;
-  justify-content: space-between;
-  align-items: center;
+  height: 15rem;
+  justify-content: center;
+}
+
+#footer-links-container {
+  display: flex;
 }
 
 .bottom-links-container:first-of-type {
-    flex:50%;
+  flex: 50%;
 }
 
 .bottom-links-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+  justify-content: center;
 }
-
 
 .footer-links {
   color: var(--cream);
+}
+
+#copyright-container {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+  margin-top: 3.5rem;
 }

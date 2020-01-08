@@ -1,18 +1,27 @@
 <footer>
-  <div class="bottom-links-container">
-    <a
-      *ngFor="let link of bottomNavLinks"
-      href="{{ link.link }}"
-      class="footer-links"
-      >{{ link.name }}</a
+  <section id="footer-links-container">
+    <article class="bottom-links-container">
+      <a
+        *ngFor="let link of bottomNavLinks"
+        href="{{ link.link }}"
+        class="footer-links"
+        >{{ link.name }}</a
+      >
+    </article>
+    <article class="bottom-links-container">
+      <a
+        *ngFor="let link of bottomSocialLinks"
+        href="{{ link.link }}"
+        class="footer-links"
+        >{{ link.name }}</a
+      >
+    </article>
+  </section>
+  <section id="copyright-container">
+    <span
+      >Website Built & maintained by
+      <a href="https://jonathansexton.me">Jonathan Sexton</a></span
     >
-  </div>
-  <div class="bottom-links-container">
-    <a
-      *ngFor="let link of bottomSocialLinks"
-      href="{{ link.link }}"
-      class="footer-links"
-      >{{ link.name }}</a
-    >
-  </div>
+    <span>Copyright 2020 Annuity Market Pros</span>
+  </section>
 </footer>
