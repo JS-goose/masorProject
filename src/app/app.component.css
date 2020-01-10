@@ -6,6 +6,36 @@
   --gunMetal: #30323d;
 }
 
+app-root {
+  height: 100%;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr max-content 1fr max-content;
+  grid-template-areas:
+    "navbar"
+    "header"
+    "industryNews"
+    "services"
+    "about"
+    "customers"
+    "footer";
+}
+
+nav {
+  grid-area: navbar;
+}
+
+app-header {
+  grid-area: header;
+  margin-top: 0;
+}
+
+app-top-cta {
+  grid-area: header;
+}
+
+
 body {
   padding: 0;
   margin: 0;
