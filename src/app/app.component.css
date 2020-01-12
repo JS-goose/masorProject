@@ -30,12 +30,12 @@ nav {
   height: 100%;
 }
 
-app-header {
+.app-header {
   grid-area: header;
   margin-top: 0;
 }
 
-app-top-cta {
+.app-top-cta {
   grid-area: header;
 }
 

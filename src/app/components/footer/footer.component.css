@@ -1,5 +1,5 @@
 /* TODO I don't like the way this is set up - let's refactor it */
-footer {
+#footer-section {
   display: flex;
   flex-direction: column;
   background-color: var(--gunMetal);
