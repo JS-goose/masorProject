@@ -1,3 +1,16 @@
-:host {
-    margin: 0px;
+#cta-container {
+    margin: 2.5rem 0 0 auto;
+    padding: 0 20px 0 5px;
+    background-color: orange;
+    /* height: 100%; */
+    width: 35%;
+    border-bottom-left-radius: 60px;
+    display: flex;
+    flex-direction: column;
+    text-align: end;
+}
+
+#cta-container h1 {
+    font-size: 3.25rem;
+    font-weight: 900;
 }
