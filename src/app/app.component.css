@@ -6,6 +6,20 @@
   --gunMetal: #30323d;
 }
 
+@font-face {
+  font-family: Playfair Display;
+  src: url("../assets/fonts/PlayfairDisplay-Regular.ttf");
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: Playfair Display, Georgia, serif;
+}
+
 body {
   padding: 0;
   margin: 0;
