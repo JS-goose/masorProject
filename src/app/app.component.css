@@ -6,6 +6,24 @@
   --gunMetal: #30323d;
 }
 
+body {
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+nav {
+  grid-area: navbar;
+  background-color: var(--cream);
+  padding-top: 0;
+  margin-top: 0;
+  /* If this is set to 100% there is a gap bettween navbar and header img */
+  height: 200%;
+}
+
 app-root {
   height: 100vh;
   width: 100%;
@@ -22,14 +40,6 @@ app-root {
     "footer";
 }
 
-nav {
-  grid-area: navbar;
-  background-color: var(--cream);
-  padding-top: 0;
-  margin-top: 0;
-  height: 100%;
-}
-
 .app-header {
   grid-area: header;
   margin-top: 0;
@@ -37,13 +47,4 @@ nav {
 
 .app-top-cta {
   grid-area: header;
-}
-
-body {
-  padding: 0;
-  margin: 0;
-}
-
-a {
-  text-decoration: none;
 }
