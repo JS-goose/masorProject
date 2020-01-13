@@ -1,0 +1,24 @@
+.top-cta-card {
+    background-color: var(--cream);
+    width: 300px;
+    justify-content: space-evenly;
+}
+
+.top-cta-card:first-of-type {
+    grid-area: "col1";
+}
+
+.cta-card-topper {
+    background-color: var(--teal);
+    height: 100%;
+    width: 100%;
+    color: var(--teal);
+}
+
+.top-cta-links {
+    background-color: var(--teal);
+    color: var(--cream);
+    padding: 5px 6px;
+    border-radius: 50%;
+    box-shadow: 3px 2px 3px var(--gunMetal50);
+}
