@@ -1,6 +1,6 @@
 # MasorProject
 
-![a design of the website](../assets/images/preview.jpg)
+![a design of the website](../src/assets/images/preview.jpg)
 
 This project is a freelance Angular application for an annuities company.  It's one of my first ventures into designing the entire website as well as building it.
 
