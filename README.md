@@ -1,6 +1,6 @@
 # MasorProject
 
-(masorProject)[../assets/images/preview.png]
+![masorProject](../assets/images/preview.png)
 
 This project is a freelance Angular application for an annuities company.  It's one of my first ventures into designing the entire website as well as building it.
 
