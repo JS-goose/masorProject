@@ -1,5 +1,11 @@
 # MasorProject
 
+[masorProject](../assets/images/preview.png)
+
+This project is a freelance Angular application for an annuities company.  It's one of my first ventures into designing the entire website as well as building it.
+
+I will not accpet pull requests but you are free to use the code as you see fit, as long as you attribute me in the code.
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.0.
 
 ## Development server
