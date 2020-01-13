@@ -1,1 +1,7 @@
-<p>cta-card works!</p>
+<article *ngFor="let card of ctaCards">
+    <div>
+        <h1>{{card.title}}</h1>
+        <p>{{card.description}}</p>
+        <a href="#" class="top-cta-buttons">&#10132;</a>
+    </div>
+</article>

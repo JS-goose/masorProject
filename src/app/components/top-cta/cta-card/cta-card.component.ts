@@ -12,4 +12,15 @@ export class CtaCardComponent implements OnInit {
   ngOnInit() {
   }
 
+  ctaCards: {title: string, descrption: string}[] = [
+    {
+      title: `Get Cash Now`,
+      descrption: `Sell us your structured settlement and get the money you need today.`,
+    },
+    {
+      title: `Purchase Annuities`,
+      descrption: `Learn how annuities provide guaranteed future income.`,
+    }
+  ]
+
 }
