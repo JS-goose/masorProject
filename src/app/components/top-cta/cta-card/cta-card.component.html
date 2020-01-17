@@ -1,8 +1,8 @@
-<!-- <article id="card-parent-container"> -->
-  <div class="top-cta-card" *ngFor="let card of ctaCards">
-    <div class="cta-card-topper">1</div>
-    <h3>{{ card.title }}</h3>
+<div class="top-cta-card" *ngFor="let card of ctaCards">
+  <div class="cta-card-topper">1</div>
+  <div class="cta-card-title">
+    <h2>{{ card.title }}</h2>
     <a href="#" class="top-cta-links">&#10132;</a>
-    <p>{{ card.description }}</p>
   </div>
-<!-- </article> -->
+  <p>{{ card.description }}</p>
+</div>

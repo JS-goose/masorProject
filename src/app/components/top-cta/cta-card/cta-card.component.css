@@ -1,19 +1,32 @@
 .top-cta-card {
   background-color: var(--cream);
-  width: 300px;
-  margin: 10px;
+  width: 25rem;
+  margin: 10px 0 10px 10px;
+  border-radius: 3px;
+}
+
+.top-cta-card h3,
+.top-cta-card p {
+  padding: 10px;
 }
 
 .cta-card-topper {
   background-color: var(--teal);
   width: 100%;
   color: var(--teal);
+  border-top-right-radius: 3px;
+  border-top-left-radius: 3px;
 }
 
 .top-cta-links {
-  background-color: var(--teal);
-  color: var(--cream);
-  padding: 5px 6px;
-  border-radius: 50%;
-  box-shadow: 3px 2px 3px var(--gunMetal50);
+  font-size: 2rem;
+  color: var(--teal);
+  margin-top: 4.5%;
+  padding-left: 0.8rem;
+}
+
+.cta-card-title {
+  display: flex;
+  justify-content: end;
+  padding-right: 1rem;
 }

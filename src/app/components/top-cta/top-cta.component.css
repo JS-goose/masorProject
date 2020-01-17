@@ -1,27 +1,34 @@
-#cta-container {
-  margin: 2.5rem 0 0 auto;
+.cta-container {
+  margin: 5rem 0 0 auto;
   padding: 0 20px 0 5px;
-  background-color: orange;
+  /* background-color: var(--sectionBgBlue50); */
   width: 50vw;
+  min-width: 50vw;
   border-bottom-left-radius: 60px;
   display: flex;
   flex-direction: column;
   text-align: end;
 }
 
-#cta-container h1 {
+.cta-container h1 {
   font-size: 2.75rem;
   font-weight: 900;
 }
 
-#cta-container h4 {
+.cta-container h4 {
   margin-top: -20px;
   font-size: 1.2rem;
   font-weight: 500;
   line-height: 1.5em;
 }
 
+.cta-container h1,
+.cta-container h4 {
+  color: var(--cream);
+}
+
 app-cta-card {
   display: flex;
   flex-direction: row;
+  justify-content: end;
 }
