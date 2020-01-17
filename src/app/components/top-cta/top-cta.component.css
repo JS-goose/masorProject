@@ -1,8 +1,8 @@
 .cta-container {
-  margin: 5rem 0 0 auto;
+  margin: 3.5rem 0 0 auto;
   padding: 0 20px 0 5px;
   /* background-color: var(--sectionBgBlue50); */
-  width: 50vw;
+  width: 60vw;
   min-width: 50vw;
   border-bottom-left-radius: 60px;
   display: flex;
