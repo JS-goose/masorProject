@@ -1,3 +1,12 @@
-.industry-news {
-    background-color: orange;
+.industry-news-section-title {
+    display: flex;
+    justify-content: flex-end;
+    font-size: 1.4rem;
+    color: var(--darkBlue)
+}
+
+.industry-news-main-img {
+    width: 30%;
+    border-bottom-right-radius: 40px;
+    box-shadow: 10px 10px var(--teal);
 }
