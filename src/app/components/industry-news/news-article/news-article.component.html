@@ -1,1 +1,14 @@
-<p>news-article works!</p>
+<div
+  *ngFor="let article of industryNewsArticles"
+  class="industry-news-card-container"
+>
+  <img src="{{ article.imgURL }}" alt="" />
+  <div class="industry-news-card-title">
+    <h1>
+      <a href="{{ article.link }}">{{ article.title }}</a>
+    </h1>
+  </div>
+  <div class="industry-news-card-exerpt">
+    <p>{{ article.exerpt }}</p>
+  </div>
+</div>

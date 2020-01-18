@@ -77,9 +77,10 @@ app-mission {
   grid-gap: 10px;
 }
 
-.industry-news-section {
+app-industry-news {
   background-color: var(--sectionBgBlue50);
   height: 100vh;
   display: grid;
+  grid-template-columns: 1fr 1fr;
 }
 
