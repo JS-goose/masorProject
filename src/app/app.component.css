@@ -57,12 +57,29 @@ app-root {
     "footer";
 }
 
-.app-header {
+app-header {
   grid-area: header;
   margin-top: 0;
-  height: 100%;
+  height: 100vh;
 }
 
-.app-top-cta {
+app-top-cta {
   grid-area: header;
 }
+
+app-mission {
+  display: grid;
+  grid-template-columns: 0.5fr 1fr;
+  align-content: center;
+  width: 100%;
+  height: 100vh;
+  align-content: center;
+  grid-gap: 10px;
+}
+
+.industry-news-section {
+  background-color: var(--sectionBgBlue50);
+  height: 100vh;
+  display: grid;
+}
+
