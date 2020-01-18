@@ -15,11 +15,11 @@ export class CtaCardComponent implements OnInit {
   ctaCards: {title: string, description: string}[] = [
     {
       title: `Get Cash Now`,
-      description: `Sell us your structured settlement and get the money you need today.`,
+      description: `Sell us your structured settlement and get the money you need today`,
     },
     {
       title: `Purchase Annuities`,
-      description: `Learn how annuities provide guaranteed future income.`,
+      description: `Learn how annuities provide guaranteed future income for you and your family`,
     }
   ]
 
