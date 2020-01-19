@@ -1,7 +1,10 @@
 :root {
   --darkBlue: #00487c;
+  --darkBlue50: rgba(0, 72, 124,0.5);
   --cream: #fffedf;
+  --cream50: rgba(255, 254, 223,0.5);
   --teal: #0aa1b2;
+  --teal50: rgba(10, 161, 178,0.5);
   --sectionBgBlue: #456990;
   --sectionBgBlue50: rgba(69, 105, 144, 0.6);
   --gunMetal: #30323d;
