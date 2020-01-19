@@ -7,6 +7,7 @@
 }
 
 .industry-news-main-img {
+  width: 100%;
   max-width: 30rem;
   border-bottom-right-radius: 40px;
   box-shadow: 10px 10px var(--teal);
@@ -18,4 +19,19 @@ app-news-article {
   grid-template-columns: repeat(3, 1fr);
   grid-column: 2;
   height: 100%;
+  align-content: center;
+}
+
+@media (max-width: 1300px) {
+    .industry-news-main-img {
+        margin-right: 5%;
+        width: 80%
+    }
+}
+
+@media (max-width: 1160px) {
+    app-news-article {
+        grid-template-columns: repeat(2, 1fr);
+        margin: 10px 0;
+    }
 }

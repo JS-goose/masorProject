@@ -1,8 +1,18 @@
-app-news-article {
-    display: flex;
-    flex-direction: row;
+.industry-news-card-container {
+  max-width: 100%;
+  padding-right: 20px;
 }
 
 .industry-news-card-img {
-    height: 10rem;
+  width: 100%;
+  max-width: 300px;
+}
+
+@media (max-width: 1160px) {
+  .industry-news-card-img {
+    padding-right: 10px;
+  }
+  .industry-news-card-img {
+    width: 70%;
+  }
 }
