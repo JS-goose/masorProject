@@ -1,0 +1,22 @@
+.button-container {
+  display: flex;
+  justify-content: center;
+  border: 2px solid var(--gunMetal50);
+  width: 12%;
+  padding: 5px;
+  border-radius: 30px;
+  font-size: 1.1rem;
+}
+
+.button-container a {
+  color: var(--teal);
+}
+
+.button-container:hover {
+  background-color: var(--teal);
+  border-color: var(--teal);
+}
+
+.button-container a:hover {
+  color: var(--cream);
+}
