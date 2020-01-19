@@ -11,7 +11,7 @@ export class NewsArticleComponent implements OnInit {
     link: string;
     exerpt: string;
     imgURL: string;
-    alt: string
+    alt: string;
   }[] = [
     {
       title: `Industry Article 1`,
@@ -35,24 +35,24 @@ export class NewsArticleComponent implements OnInit {
       alt: ``
     },
     {
-      title: `Industry Article 4`,
+      title: `Industry Article 6`,
       link: `#`,
       exerpt: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.`,
-      imgURL: `../../../../assets/images/markus-spiske-5gGcn2PRrtc-unsplash.jpg`,
+      imgURL: `../../../../assets/images/adeolu-eletu-E7RLgUjjazc-unsplash.jpg`,
       alt: ``
     },
     {
       title: `Industry Article 5`,
       link: `#`,
       exerpt: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.`,
-      imgURL: `../../../../assets/images/michael-longmire-lhltMGdohc8-unsplash.jpg`,
+      imgURL: `../../../../assets/images/geronimo-giqueaux-Mp4Fq6zj6D4-unsplash.jpg`,
       alt: ``
     },
     {
-      title: `Industry Article 6`,
+      title: `Industry Article 4`,
       link: `#`,
       exerpt: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.`,
-      imgURL: `../../../../assets/images/thought-catalog-Xeo_7HSwYsA-unsplash.jpg`,
+      imgURL: `../../../../assets/images/pepi-stojanovski-MJSFNZ8BAXw-unsplash(1).jpg`,
       alt: ``
     }
   ];

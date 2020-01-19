@@ -1,11 +1,11 @@
 .industry-news-card-container {
   max-width: 100%;
   margin-right: 20px;
-  background-color: var(--cream);
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  border-radius: 3px;
 }
 
 .industry-news-card-img {
@@ -13,8 +13,15 @@
   max-width: 300px;
 }
 
-industry-news-card-title {
-  text-align: center;
+.industry-news-card-link {
+  text-decoration: none;
+  color: var(--teal);
+}
+
+.industry-news-card-link:hover {
+  text-decoration: underline;
+  background-color: var(--gunMetal);
+  padding: 5px;
 }
 
 .industry-news-card-body {
@@ -33,11 +40,10 @@ industry-news-card-title {
 
 @media (max-width: 1160px) {
   .industry-news-card-img {
-    /* padding-right: 10px; */
     width: 100%;
   }
 
-  .industry-news-card-container {
-    /* width: 400px; */
+  .industry-news-card-link:hover {
+    padding: 0;
   }
 }
