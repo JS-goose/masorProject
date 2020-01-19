@@ -7,12 +7,14 @@
     alt="{{ article.alt }}"
     class="industry-news-card-img"
   />
-  <div class="industry-news-card-title">
-    <h1>
-      <a href="{{ article.link }}">{{ article.title }}</a>
-    </h1>
-  </div>
-  <div class="industry-news-card-exerpt">
-    <p>{{ article.exerpt }}</p>
+  <div class="industry-news-card-body">
+    <div class="industry-news-card-title">
+      <h1>
+        <a href="{{ article.link }}">{{ article.title }}</a>
+      </h1>
+    </div>
+    <div class="industry-news-card-exerpt">
+      <p>{{ article.exerpt }}</p>
+    </div>
   </div>
 </div>

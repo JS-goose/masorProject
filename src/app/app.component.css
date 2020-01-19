@@ -87,3 +87,9 @@ app-industry-news {
   align-items: center;
 }
 
+@media (max-width: 1160px) {
+  app-industry-news {
+    grid-template-columns: 1fr;
+  }
+}
+
