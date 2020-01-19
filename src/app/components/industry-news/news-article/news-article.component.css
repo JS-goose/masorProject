@@ -2,3 +2,7 @@ app-news-article {
     display: flex;
     flex-direction: row;
 }
+
+.industry-news-card-img {
+    height: 10rem;
+}

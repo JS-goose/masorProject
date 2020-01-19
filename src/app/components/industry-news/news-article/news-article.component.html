@@ -2,7 +2,7 @@
   *ngFor="let article of industryNewsArticles"
   class="industry-news-card-container"
 >
-  <img src="{{ article.imgURL }}" alt="" />
+  <img src="{{ article.imgURL }}" alt="{{article.alt}}" class="industry-news-card-img"/>
   <div class="industry-news-card-title">
     <h1>
       <a href="{{ article.link }}">{{ article.title }}</a>

@@ -36,3 +36,14 @@
   justify-content: flex-end;
   padding-right: 1rem;
 }
+
+@media (max-width: 800px) {
+  .top-cta-card {
+    margin: 5% 1% 0 1%;
+  }
+
+  .top-cta-links {
+    font-size: 1.8rem;
+    margin-top: 4%;
+  }
+}
