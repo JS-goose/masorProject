@@ -1,3 +1,7 @@
+.section-identifier {
+grid-column: 2
+}
+
 .industry-news-section-title {
   font-size: 1.4rem;
   color: var(--darkBlue);
@@ -21,6 +25,8 @@ app-news-article {
   height: 100%;
   align-content: center;
   grid-gap: 10px;
+  margin-bottom: 10%;
+  max-width: 100%;
 }
 
 @media (max-width: 1300px) {

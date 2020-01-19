@@ -82,9 +82,9 @@ app-mission {
 
 app-industry-news {
   background-color: var(--sectionBgBlue50);
-  height: 110vh;
+  height: 120vh;
   display: grid;
-  grid-template-columns: 0.6fr 0.75fr;
+  grid-template-columns: 0.5fr 0.75fr;
   max-width: 100%;
   justify-items: center;
   align-items: center;

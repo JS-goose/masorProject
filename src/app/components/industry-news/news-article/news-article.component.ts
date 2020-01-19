@@ -35,7 +35,7 @@ export class NewsArticleComponent implements OnInit {
       alt: ``
     },
     {
-      title: `Industry Article 6`,
+      title: `Industry Article 4`,
       link: `#`,
       exerpt: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.`,
       imgURL: `../../../../assets/images/adeolu-eletu-E7RLgUjjazc-unsplash.jpg`,
@@ -49,10 +49,10 @@ export class NewsArticleComponent implements OnInit {
       alt: ``
     },
     {
-      title: `Industry Article 4`,
+      title: `Industry Article 6`,
       link: `#`,
       exerpt: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.`,
-      imgURL: `../../../../assets/images/pepi-stojanovski-MJSFNZ8BAXw-unsplash(1).jpg`,
+      imgURL: `../../../../assets/images/markus-spiske-3Tf1J8q9bBA-unsplash.jpg`,
       alt: ``
     }
   ];
