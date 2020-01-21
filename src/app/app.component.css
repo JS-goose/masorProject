@@ -44,6 +44,7 @@ nav {
 }
 
 app-root {
+  box-sizing: border-box;
   color: var(--gunMetal);
   height: 100vh;
   width: 100%;
