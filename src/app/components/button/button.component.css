@@ -2,13 +2,14 @@
   color: var(--teal);
   display: inline-block;
   border: 2px solid var(--teal50);
-  padding: 0.3rem 0.5rem;
+  padding: 0.5rem 0.8rem;
   border-radius: 1.625rem;
   font-size: 1.2rem;
   background-color: transparent;
   line-height: 1;
   letter-spacing: 0.1rem;
   transition: all 0.3s ease-in-out;
+  font-family: Lato, Poppins, sans-serif;
 }
 
 .button-link:hover {
