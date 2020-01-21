@@ -91,6 +91,10 @@ app-industry-news {
   align-items: center;
 }
 
+app-services-section {
+  display: flex;
+}
+
 @media (max-width: 1160px) {
   app-industry-news {
     grid-template-columns: 1fr;
