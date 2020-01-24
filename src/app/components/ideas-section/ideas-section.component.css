@@ -1,0 +1,8 @@
+.bright-ideas-img {
+  width: 25%;
+  max-width: 20rem;
+  min-width: 10rem;
+  box-shadow: -15px -15px var(--darkBlue);
+  margin-left: 5%;
+  border-bottom-left-radius: 40px;
+}
