@@ -1,7 +1,7 @@
 .button-link {
-  color: var(--teal);
+  color: var(--darkBlue);
   display: inline-block;
-  border: 2px solid var(--teal50);
+  border: 2px solid var(--darkBlue50);
   padding: 0.5rem 0.8rem;
   border-radius: 1.625rem;
   font-size: 1.2rem;
@@ -17,5 +17,6 @@
   border-color: var(--teal);
   color: var(--cream);
   cursor: pointer;
+  box-shadow: 1px 1px 10px 1px var(--gunMetal50);
+  transform: translateY(-5px);
 }
-
