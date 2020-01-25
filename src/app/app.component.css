@@ -127,7 +127,7 @@ app-services-section {
 .about-us-section {
   width: 100%;
   background-color: var(--sectionBgBlue50);
-  height: 65vh;
+  height: 50vh;
 }
 
 @media (max-width: 1160px) {

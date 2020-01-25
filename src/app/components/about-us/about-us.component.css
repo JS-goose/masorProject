@@ -1,5 +1,24 @@
+.about-us-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 100%;
+}
+
+.about-us-content {
+  flex: 0 0 41%;
+}
+
+.about-us-img-container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: flex-start;
+  margin-bottom: 10%;
+}
+
 .about-us-img {
-  width: 55%;
   max-width: 30rem;
   min-width: 200px;
+  border-bottom-left-radius: 40px;
 }
