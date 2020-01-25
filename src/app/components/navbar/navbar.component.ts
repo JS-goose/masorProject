@@ -1,12 +1,12 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit } from "@angular/core";
 
 @Component({
-  selector: 'app-navbar',
-  templateUrl: './navbar.component.html',
-  styleUrls: ['./navbar.component.css']
+  selector: "app-navbar",
+  templateUrl: "./navbar.component.html",
+  styleUrls: ["./navbar.component.css"]
 })
 export class NavbarComponent implements OnInit {
-  navLinks: {name: string, link: string}[] = [
+  navLinks: { name: string; link: string }[] = [
     {
       name: `Logo`,
       //TODO This will need to be switch out when I get it from client
@@ -31,12 +31,14 @@ export class NavbarComponent implements OnInit {
     {
       name: `Contact`,
       link: `#contact`
+    },
+    {
+      name: `☎ 713-348-9994`,
+      link: `#`
     }
-  ]
+  ];
 
-  constructor() { }
+  constructor() {}
 
-  ngOnInit() {
-  }
-
+  ngOnInit() {}
 }
