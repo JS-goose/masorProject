@@ -1,8 +1,18 @@
+.services-title {
+  grid-column: 2;
+}
+
+.services-content {
+  grid-column: 2;
+}
+
 .services-section-img {
-  width: 25%;
-  max-width: 20rem;
-  min-width: 10rem;
+  width: 50%;
+  max-width: 25rem;
+  min-width: 15rem;
   box-shadow: 15px 15px var(--darkBlue);
-  margin-left: 5%;
   border-bottom-right-radius: 40px;
+  grid-column: 1;
+  grid-row: 1/span 2;
+  justify-self: center;
 }

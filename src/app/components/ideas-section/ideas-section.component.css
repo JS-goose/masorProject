@@ -1,17 +1,32 @@
 .ideas-title {
   grid-column: 1;
+  justify-self: center;
+  font-size: 1.9rem;
+  margin-top: 5%;
+  width: 28vw;
+  text-align: left;
 }
 
 .ideas-content {
   grid-column: 1;
+  justify-self: center;
+  width: 28vw;
+  font-size: 1.15rem;
+  line-height: 1.3;
 }
 
 .bright-ideas-img {
-  width: 45%;
-  max-width: 20rem;
-  min-width: 10rem;
+  width: 50%;
+  max-width: 25rem;
+  min-width: 200px;
   box-shadow: -15px -15px var(--darkBlue);
-  margin-left: 5%;
+  margin-bottom: 10%;
   border-bottom-left-radius: 40px;
   grid-column: 2;
+  grid-row: 2 / span 3;
+  justify-self: center;
+}
+
+.button {
+  margin-top: 20%;
 }
