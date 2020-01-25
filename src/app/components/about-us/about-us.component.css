@@ -5,8 +5,12 @@
   height: 100%;
 }
 
+.about-us-title {
+  font-size: 2.5rem;
+}
+
 .about-us-content {
-  flex: 0 0 41%;
+  flex: 0 0 35%;
 }
 
 .about-us-img-container {
@@ -14,11 +18,28 @@
   flex-direction: column;
   height: 100%;
   justify-content: flex-start;
-  margin-bottom: 10%;
+  margin-bottom: 8%;
 }
 
 .about-us-img {
   max-width: 30rem;
   min-width: 200px;
   border-bottom-left-radius: 40px;
+  box-shadow: 3px 3px 5px var(--gunMetal50);
+}
+
+.button-container {
+  margin-top: 6%;
+}
+
+.section-title-container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+@media (max-width: 990px) {
+    .section-title-container {
+        display: none;
+    }
 }

@@ -108,6 +108,7 @@ app-industry-news {
 .ideas-and-services-section {
   display: flex;
   flex-direction: column;
+  margin-bottom: 10%;
 }
 
 app-ideas-section {

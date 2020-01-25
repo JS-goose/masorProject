@@ -2,8 +2,8 @@
   color: var(--darkBlue);
   display: inline-block;
   border: 2px solid var(--darkBlue);
-  padding: 0.5rem 0.8rem;
-  border-radius: 1.2rem;
+  padding: 0.8rem 0.9rem;
+  border-radius: 1.5rem;
   font-size: 1.2rem;
   background-color: transparent;
   line-height: 1;
@@ -18,7 +18,7 @@
   color: var(--cream);
   cursor: pointer;
   box-shadow: 1px 8px 10px var(--gunMetal50);
-  transform: translateX(-10px);
+  transform: translateX(5px);
 }
 
 .button-link:hover:after {
