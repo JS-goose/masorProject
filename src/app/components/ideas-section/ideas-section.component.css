@@ -1,8 +1,5 @@
 .ideas-content {
   grid-column: 1;
-  font-size: 1.15rem;
-  line-height: 1.2;
-  /* margin-left: 100px; */
   width: 100%;
 }
 
@@ -11,8 +8,8 @@
 }
 
 .bright-ideas-img {
-  width: 50%;
-  max-width: 25rem;
+  width: 55%;
+  max-width: 30rem;
   min-width: 200px;
   box-shadow: -15px -15px var(--darkBlue);
   border-bottom-left-radius: 40px;
