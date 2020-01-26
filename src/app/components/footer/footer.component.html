@@ -13,7 +13,8 @@
         *ngFor="let link of bottomSocialLinks"
         href="{{ link.link }}"
         class="footer-links"
-        >{{ link.name }}</a
+        innerHTML="{{link.src}}"
+        ></a
       >
     </article>
   </section>

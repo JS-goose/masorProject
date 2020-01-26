@@ -1,12 +1,12 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit } from "@angular/core";
 
 @Component({
-  selector: 'app-footer',
-  templateUrl: './footer.component.html',
-  styleUrls: ['./footer.component.css']
+  selector: "app-footer",
+  templateUrl: "./footer.component.html",
+  styleUrls: ["./footer.component.css"]
 })
 export class FooterComponent implements OnInit {
-  bottomNavLinks: { name: string, link: string }[] = [
+  bottomNavLinks: { name: string; link: string }[] = [
     {
       name: `Home`,
       link: `#home`
@@ -39,34 +39,32 @@ export class FooterComponent implements OnInit {
       name: `Contact`,
       link: `#contact`
     }
-  ]
+  ];
 
-  bottomSocialLinks: { name: string, link: string, src: string }[] = [
+  bottomSocialLinks: { name: string; link: string; src: string }[] = [
     {
       name: `Twitter`,
       link: `https://twitter.com`,
-      src: ``
+      src: `<i class="fab fa-twitter"></i>`
     },
     {
       name: `Facebook`,
       link: `https://facebook.com`,
-      src: ``
+      src: `<i class="fab fa-facebook-f"></i>`
     },
     {
       name: `YouTube`,
       link: `https://youtube.com`,
-      src: ``
+      src: `<i class="fab fa-youtube"></i>`
     },
     {
       name: `Instagram`,
       link: `https://instagram.com`,
-      src: ``
-    },
-  ]
+      src: `<i class="fab fa-instagram"></i>`
+    }
+  ];
 
-  constructor() { }
+  constructor() {}
 
-  ngOnInit() {
-  }
-
+  ngOnInit() {}
 }
