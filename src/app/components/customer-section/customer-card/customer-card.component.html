@@ -1,9 +1,13 @@
-<div *ngFor="let card of customerCards" class="customer-card-container">
+<div class="customer-card-container">
   <div class="card-img-container">
-    <img class="customer-card-img" src="{{card.img}}" alt="" />
+    <img
+      class="customer-card-img"
+      src="{{ card.image }}"
+      alt="{{ card.imageAlt }}"
+    />
   </div>
   <div class="customer-card-title">
-    <h1>{{card.name}}</h1>
+    <h1>{{ card.name }}</h1>
   </div>
-  <div class="customer-card-content">{{card.content}}</div>
+  <div class="customer-card-content">{{ card.content }}</div>
 </div>
