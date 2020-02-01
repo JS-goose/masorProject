@@ -17,7 +17,6 @@ import { ServicesSectionComponent } from "./components/services-section/services
 import { ButtonComponent } from "./components/button/button.component";
 import { AboutUsComponent } from "./components/about-us/about-us.component";
 import { CustomerSectionComponent } from "./components/customer-section/customer-section.component";
-import { CustomerCardComponent } from "./components/customer-section/customer-card/customer-card.component";
 
 @NgModule({
   declarations: [
@@ -36,7 +35,6 @@ import { CustomerCardComponent } from "./components/customer-section/customer-ca
     ButtonComponent,
     AboutUsComponent,
     CustomerSectionComponent,
-    CustomerCardComponent
   ],
   imports: [BrowserModule, AppRoutingModule],
   providers: [],
