@@ -125,6 +125,18 @@ app-services-section {
   align-items: center;
 }
 
+app-customer-section {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-row-gap: 5%;
+  width: 100%;
+}
+
+.customer-section {
+  height: 90vh;
+  width: 100%;
+}
+
 .about-us-section {
   width: 100%;
   background-color: var(--sectionBgBlue50);

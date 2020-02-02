@@ -1,4 +1,8 @@
-<div *ngFor="let card of customerCards" class="customer-card-container">
+<div
+  *ngFor="let card of customerCards; let i = index"
+  class="customer-card-container"
+  [attr.data-index]="index"
+>
   <div class="card-img-container">
     <img
       class="customer-card-img"
@@ -6,8 +10,8 @@
       alt="{{ card.imageAlt }}"
     />
   </div>
-  <div class="customer-card-title">
-    <h1>{{ card.name }}</h1>
+  <div class="customer-card-content">
+    <h1 class="customer-card-title">{{ card.name }}</h1>
+    <p>{{ card.content }}</p>
   </div>
-  <div class="customer-card-content">{{ card.content }}</div>
 </div>

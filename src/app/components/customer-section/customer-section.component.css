@@ -1,3 +1,19 @@
+.card-img-container {
+    width: 10rem;
+}
+
 .customer-card-img {
-    width: 10%;
+    width: 15rem;
+    max-width: 185px;
+}
+
+.customer-card-container {
+    background: var(--cream50);
+    width: 40em;
+    display: grid;
+    grid-template-columns: 0.75fr 1fr;
+}
+
+.customer-card-content {
+    grid-column: 2;
 }
