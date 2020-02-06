@@ -135,8 +135,11 @@ app-services-section {
 app-customer-section {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: auto;
   grid-row-gap: 5%;
+  height: 100vh;
   width: 100%;
+  align-content: center;
 }
 
 .customer-section {

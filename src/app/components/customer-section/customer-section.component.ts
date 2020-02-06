@@ -11,26 +11,26 @@ export class CustomerSectionComponent implements OnInit {
     new Customer(
       `Hardol Doe`,
       `../../../assets/images/dragos-gontariu-GH-mSApoKO0-unsplash.jpg`,
-      `Swearem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam scelerisque accumsan nisl, a mattis eros vestibulum et. Vestibulum placerat purus ut nibh aliquam fringilla.`,
+      `Swearem ipsum dolor sit amet, consectetur adipiscing elit. `,
       `a human smiling`,
       ``
     ),
     new Customer(
       `Jane Schmidt`,
       `../../../assets/images/marivi-pazos-cvpk5Y4ZWUs-unsplash.jpg`,
-      `Swearem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam scelerisque accumsan nisl, a mattis eros vestibulum et. Vestibulum placerat purus ut nibh aliquam fringilla.`,
+      `Aliquam scelerisque accumsan nisl, a mattis eros vestibulum et. `,
       `a human woman`,
       ``
     ),
     new Customer(
       `John Smith`,
       `../../../assets/images/marius-ciocirlan-vMV6r4VRhJ8-unsplash.jpg`,
-      `Swearem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam scelerisque accumsan nisl, a mattis eros vestibulum et. Vestibulum placerat purus ut nibh aliquam fringilla.`,
+      `Vestibulum placerat purus ut nibh aliquam fringilla.`,
       `a man smiling`,
       ``
     ),
   ];
-  constructor() {}
+  constructor() { }
 
-  ngOnInit() {}
+  ngOnInit() { }
 }
