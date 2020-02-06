@@ -1,10 +1,11 @@
 .customer-card-container {
-  width: 40em;
+  /* width: 40em; */
   grid-column: 2;
   display: flex;
   flex-direction: row;
   align-content: center;
-  border: 1px solid orangered;
+  padding: 5px;
+  margin-right: 1%;
 }
 
 .card-img-container {
@@ -22,7 +23,7 @@
 }
 
 .customer-card-img {
-  width: 15rem;
+  width: 10rem;
   max-width: 185px;
 }
 
@@ -32,8 +33,10 @@
 
 .customer-card-content p {
   text-align: left;
+  font-size: 0.95em;
 }
 
-customer-card-title {
+.customer-card-title {
   text-align: left;
+  color: var(--teal);
 }
