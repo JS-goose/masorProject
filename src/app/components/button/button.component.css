@@ -8,7 +8,7 @@
   background-color: transparent;
   line-height: 1;
   letter-spacing: 0.1rem;
-  transition: all 0.2s ease-in-out;
+  transition: all 0.3s ease-in-out;
   font-family: Lato, Poppins, sans-serif;
 }
 
@@ -21,10 +21,9 @@
   transform: translateX(5px);
 }
 
-.button-link:hover:after {
+/* .button-link:hover:after {
   content: '➔';
   padding-left: 3px;
   position: relative;
   right: 0;
-  /* transition: all 0.3s ease-in-out; */
-}
+} */
