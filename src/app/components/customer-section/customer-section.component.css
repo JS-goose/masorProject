@@ -20,6 +20,7 @@
   align-items: center;
   width: 60%;
   justify-self: center;
+  align-items: flex-start;
 }
 
 .customer-card-img {
@@ -33,10 +34,14 @@
 
 .customer-card-content p {
   text-align: left;
-  font-size: 0.95em;
+  font-size: 0.95`em;
 }
 
 .customer-card-title {
   text-align: left;
   color: var(--teal);
+}
+
+app-button {
+  text-align: left;
 }
