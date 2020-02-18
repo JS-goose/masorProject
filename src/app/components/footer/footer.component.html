@@ -4,7 +4,7 @@
       <a
         *ngFor="let link of bottomNavLinks; let i = index"
         href="{{ link.link }}"
-        class="footer-links"
+        class="footer-anchor-links"
         [attr.data-index]="i"
         >{{ link.name }}</a
       >
@@ -13,7 +13,7 @@
       <a
         *ngFor="let link of bottomSocialLinks"
         href="{{ link.link }}"
-        class="footer-links"
+        class="footer-anchor-links"
         [attr.data-index]="i"
         innerHTML="{{link.src}}"
         ></a
