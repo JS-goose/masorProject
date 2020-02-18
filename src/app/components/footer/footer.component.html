@@ -1,14 +1,14 @@
-<section id="footer-section">
-  <section id="footer-links-container">
-    <article class="bottom-links-container">
+<section class="footer-section">
+  <article class="footer-links-container">
+    <div class="bottom-links-container">
       <a
         *ngFor="let link of bottomNavLinks"
         href="{{ link.link }}"
         class="footer-links"
         >{{ link.name }}</a
       >
-    </article>
-    <article class="bottom-links-container">
+    </div>
+    <div class="bottom-links-container">
       <a
         *ngFor="let link of bottomSocialLinks"
         href="{{ link.link }}"
@@ -16,9 +16,9 @@
         innerHTML="{{link.src}}"
         ></a
       >
-    </article>
-  </section>
-  <section id="copyright-container">
+    </div>
+  </article>
+  <section class="copyright-container">
     <span
       >Website Built & maintained by
       <a href="https://jonathansexton.me">Jonathan Sexton</a></span

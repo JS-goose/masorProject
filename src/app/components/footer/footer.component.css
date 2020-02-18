@@ -1,5 +1,5 @@
 /* TODO I don't like the way this is set up - let's refactor it */
-#footer-section {
+.footer-section {
   display: flex;
   flex-direction: column;
   background-color: var(--gunMetal);
@@ -7,7 +7,7 @@
   justify-content: center;
 }
 
-#footer-links-container {
+.footer-links-container {
   display: flex;
 }
 
@@ -27,7 +27,7 @@
   color: var(--cream);
 }
 
-#copyright-container {
+.copyright-container {
   width: 100%;
   display: flex;
   justify-content: space-around;
