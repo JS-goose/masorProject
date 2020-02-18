@@ -2,9 +2,10 @@
   <article class="footer-links-container">
     <div class="bottom-links-container">
       <a
-        *ngFor="let link of bottomNavLinks"
+        *ngFor="let link of bottomNavLinks; let i = index"
         href="{{ link.link }}"
         class="footer-links"
+        [attr.data-index]="i"
         >{{ link.name }}</a
       >
     </div>
@@ -13,6 +14,7 @@
         *ngFor="let link of bottomSocialLinks"
         href="{{ link.link }}"
         class="footer-links"
+        [attr.data-index]="i"
         innerHTML="{{link.src}}"
         ></a
       >
