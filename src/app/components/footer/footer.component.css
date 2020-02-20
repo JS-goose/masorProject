@@ -38,13 +38,14 @@
   color: var(--cream);
 }
 
+/* TODO This needs work to keep it at the bottom of the page */
 .copyright-container {
   width: 100%;
   display: flex;
   justify-content: space-around;
-  position: fixed;
+  /* position: absolute; */
   bottom: 0;
-  margin-top: 3.5rem;
+  margin-top: 5rem;
   color: var(--cream);
 }
 
