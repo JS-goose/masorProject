@@ -11,7 +11,7 @@
     </div>
     <div class="bottom-links-container">
       <a
-        *ngFor="let link of bottomSocialLinks"
+        *ngFor="let link of bottomSocialLinks; let i = index"
         href="{{ link.link }}"
         class="footer-anchor-links"
         [attr.data-index]="i"
