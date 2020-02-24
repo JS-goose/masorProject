@@ -8,11 +8,6 @@ import { Component, OnInit } from "@angular/core";
 export class NavbarComponent implements OnInit {
   navLinks: { name: string; link: string }[] = [
     {
-      name: `Logo`,
-      //TODO This will need to be switch out when I get it from client
-      link: `../../../assets/logo.png`
-    },
-    {
       name: `Home`,
       link: `#home`
     },
