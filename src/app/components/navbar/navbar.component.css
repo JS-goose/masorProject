@@ -29,3 +29,15 @@
   text-decoration-color: var(--teal);
   text-decoration-thickness: 3px;
 }
+
+@media screen and (max-width: 1024px) {
+  #nav-ul {
+    font-size: 1.1rem;
+  }
+}
+
+@media screen and (max-width: 801px) {
+  .nav-links {
+    padding-right: 10px;
+  }
+}

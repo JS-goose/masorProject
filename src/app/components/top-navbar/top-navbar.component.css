@@ -21,3 +21,9 @@
 .top-nav-links:last-of-type {
   padding-right: 1%;
 }
+
+@media screen and (max-width: 1024px) {
+  .top-nav-links {
+    font-size: 0.9rem;
+  }
+}

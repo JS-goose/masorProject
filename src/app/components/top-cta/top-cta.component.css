@@ -15,11 +15,10 @@
   font-weight: 900;
 }
 
-.cta-container h4 {
-  margin-top: -20px;
+.cta-container-content {
   font-size: 1.2rem;
-  font-weight: 500;
   line-height: 1.5em;
+  margin-bottom: 10%;
 }
 
 .cta-container h1,
@@ -33,7 +32,13 @@ app-cta-card {
   justify-content: flex-end;
 }
 
-@media (max-width: 800px) {
+@media screen and (max-width: 1000px) {
+  .cta-container-content {
+    margin-bottom: 2%;
+  }
+}
+
+@media screen and (max-width: 800px) {
   .cta-container {
     width: 100vw;
     margin: 0;
