@@ -36,8 +36,8 @@
   }
 }
 
-@media screen and (max-width: 801px) {
-  .nav-links {
-    padding-right: 10px;
+@media screen and (max-width: 800px) {
+  #nav-ul {
+    display: none;
   }
 }
