@@ -15,16 +15,18 @@
         href="{{ link.link }}"
         class="footer-anchor-links"
         [attr.data-index]="i"
-        innerHTML="{{link.src}}"
-        ></a
-      >
+        innerHTML="{{ link.src }}"
+      ></a>
+      <img src="../../../assets/images/logo.png" class="logo" alt="" />
     </div>
   </article>
   <section class="copyright-container">
-    <span
-      >Website Built & maintained by
-      <a href="https://jonathansexton.me">Jonathan Sexton</a></span
-    >
-    <span>Copyright 2020 Annuity Market Pros</span>
+    <div>
+      Website built & maintained by
+      <a href="https://jonathansexton.me" class="attribution-link"
+        >Jonathan Sexton</a
+      >
+    </div>
+    <div>© Copyright 2020 Annuity Market Pros</div>
   </section>
 </section>

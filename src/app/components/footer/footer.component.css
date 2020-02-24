@@ -10,6 +10,8 @@
 .footer-links-container {
   display: flex;
   font-size: 1.4rem;
+  height: 100%;
+  padding-top: 5%;
 }
 
 .bottom-links-container {
@@ -32,24 +34,42 @@
 .bottom-links-container:nth-of-type(2) {
   width: 10%;
   justify-content: space-between;
+  align-items: center;
 }
 
 .footer-anchor-links {
   color: var(--cream);
 }
 
-/* TODO This needs work to keep it at the bottom of the page */
+.footer-anchor-links:hover {
+  text-decoration: underline;
+  text-decoration-color: var(--teal);
+  text-decoration-thickness: 3px;
+}
+
 .copyright-container {
   width: 100%;
+  align-items: end;
+  padding-bottom: 1%;
   display: flex;
   justify-content: space-around;
-  /* position: absolute; */
-  bottom: 0;
   margin-top: 5rem;
   color: var(--cream);
 }
 
-.copyright-container a, .copyright-container a:visited {
+.logo {
+  width: 100%;
+}
+
+.attribution-link, .attribution-link:visited {
+  text-decoration: none;
+  color: var(--teal50);
+}
+
+.attribution-link:hover {
+  color: var(--teal);
   text-decoration: underline;
-  color: inherit;
+  text-decoration-thickness: 3px;
+  text-decoration-color: var(--teal);
+  transition: all 0.2s ease-in-out;
 }
