@@ -7,10 +7,25 @@
   font-size: 1.35rem;
 }
 
+.phone-number {
+  font-size: 1.1rem;
+  padding-top: 10px;
+}
+
+.logo {
+  width: 10em;
+}
+
 .nav-links {
   padding-top: 1rem;
 }
 
 .nav-links-anchor {
   color: var(--gunMetal);
+}
+
+.nav-links-anchor:hover {
+  text-decoration: underline;
+  text-decoration-color: var(--teal);
+  text-decoration-thickness: 3px;
 }

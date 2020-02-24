@@ -27,10 +27,6 @@ export class NavbarComponent implements OnInit {
       name: `Contact`,
       link: `#contact`
     },
-    {
-      name: `☎ 713-348-9994`,
-      link: `#`
-    }
   ];
 
   constructor() {}
