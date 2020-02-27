@@ -6,7 +6,6 @@ import { AppComponent } from "./app.component";
 import { FooterComponent } from "./components/footer/footer.component";
 import { NavbarComponent } from "./components/navbar/navbar.component";
 import { HeaderComponent } from "./components/header/header.component";
-import { TopNavbarComponent } from "./components/top-navbar/top-navbar.component";
 import { MissionComponent } from "./components/mission/mission.component";
 import { IndustryNewsComponent } from "./components/industry-news/industry-news.component";
 import { NewsArticleComponent } from "./components/industry-news/news-article/news-article.component";
@@ -24,7 +23,6 @@ import { CustomerSectionComponent } from "./components/customer-section/customer
     FooterComponent,
     NavbarComponent,
     HeaderComponent,
-    TopNavbarComponent,
     MissionComponent,
     IndustryNewsComponent,
     NewsArticleComponent,

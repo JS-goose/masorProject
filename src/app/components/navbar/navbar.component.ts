@@ -6,6 +6,29 @@ import { Component, OnInit } from "@angular/core";
   styleUrls: ["./navbar.component.css"]
 })
 export class NavbarComponent implements OnInit {
+  topNavLinks: { name: string, link: string }[] = [
+    {
+      name: `Fixed Annuities`,
+      link: `#fixed-annuities`
+    },
+    {
+      name: `Fixed-Index Annuities`,
+      link: `#fixed-index-annuities`
+    },
+    {
+      name: `Variable Annuities`,
+      link: `#variable-annuities`
+    },
+    {
+      name: `Immediate Annuities`,
+      link: `#immediate-annuities`
+    },
+    {
+      name: `Deferred Annuities`,
+      link: `#deferred-annuities`
+    }
+  ];
+
   navLinks: { name: string; link: string }[] = [
     {
       name: `Home`,
@@ -29,7 +52,7 @@ export class NavbarComponent implements OnInit {
     },
   ];
 
-  constructor() {}
+  constructor() { }
 
-  ngOnInit() {}
+  ngOnInit() { }
 }

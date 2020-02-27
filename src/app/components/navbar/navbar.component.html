@@ -1,4 +1,13 @@
-<ul id="nav-ul">
+<div class="top-nav-container">
+  <a
+    *ngFor="let link of topNavLinks"
+    href="{{ link.link }}"
+    class="top-nav-links"
+    >{{ link.name }}</a
+  >
+</div>
+
+<ul class="nav-ul">
   <li>
     <img
       src="../../../assets/images/logo.png"
