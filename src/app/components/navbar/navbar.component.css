@@ -37,7 +37,6 @@
 
 .phone-number {
   font-size: 1.1rem;
-  padding-top: 10px;
 }
 
 .logo {
@@ -74,11 +73,10 @@
 
 @media screen and (max-width: 800px) {
   .mobile-menu-toggle-container {
-    display: block;
-    position: absolute;
-    width: 100%;
     display: flex;
-    justify-content: center;
+    justify-content:space-between;
+    align-items: center;
+    width: 100%;
   }
 
   .mobile-menu-toggle {
@@ -94,5 +92,15 @@
 
   .nav-ul {
     display: none;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .mobile-menu-toggle-container {
+    font-size: 0.8rem;
+  }
+
+  .phone-number {
+    padding: 0 5px;
   }
 }
