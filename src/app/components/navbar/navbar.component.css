@@ -30,6 +30,10 @@
   text-decoration-thickness: 3px;
 }
 
+.mobile-menu-toggle-container {
+  display: none;
+}
+
 @media screen and (max-width: 1024px) {
   #nav-ul {
     font-size: 1.1rem;
@@ -37,6 +41,21 @@
 }
 
 @media screen and (max-width: 800px) {
+  .mobile-menu-toggle-container {
+    display: block;
+    position: absolute;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .mobile-menu-toggle {
+    background: transparent;
+    font-size: 1.05rem;
+    border: none;
+    cursor: pointer;
+  }
+
   #nav-ul {
     display: none;
   }
