@@ -55,6 +55,19 @@ app-cta-card {
   }
 }
 
+@media screen and (max-width: 600px) {
+  app-cta-card {
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    flex-direction: row;
+    -webkit-box-pack: end;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+}
+
 @media screen and (max-width: 500px) {
   .cta-container h1 {
     font-size: 1.5rem;
