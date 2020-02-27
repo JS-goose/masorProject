@@ -1,7 +1,6 @@
 .cta-container {
   margin: 3.5rem 0 0 auto;
   padding: 0 20px 0 5px;
-  /* background-color: var(--sectionBgBlue50); */
   width: 60vw;
   min-width: 50vw;
   border-bottom-left-radius: 60px;
@@ -32,7 +31,7 @@ app-cta-card {
   justify-content: flex-end;
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1024px) {
   .cta-container-content {
     margin-bottom: 2%;
   }
@@ -46,4 +45,24 @@ app-cta-card {
     text-align: center;
   }
 
+  .cta-container h1 {
+    font-size: 2rem;
+  }
+  .cta-container-content {
+    font-size: 1rem;
+    line-height: 1.2em;
+    padding: 5px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .cta-container h1 {
+    font-size: 1.5rem;
+  }
+
+  .cta-container-content {
+    font-size: 1rem;
+    line-height: 1em;
+    padding: 10px;
+  }
 }
