@@ -81,9 +81,17 @@
 
   .mobile-menu-toggle {
     background: transparent;
-    font-size: 1.05rem;
     border: none;
     cursor: pointer;
+  }
+
+  .mobile-menu-toggle img {
+    width: 2.5rem;
+  }
+
+  .mobile-toggle-right {
+    display: flex;
+    align-items: center;
   }
 
   .top-nav-container {
