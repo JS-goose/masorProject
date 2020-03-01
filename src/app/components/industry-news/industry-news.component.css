@@ -39,11 +39,31 @@ app-news-article {
 @media screen and (max-width: 1160px) {
   app-news-article {
     grid-template-columns: repeat(3, 1fr);
+    padding: 10px;
+  }
+
+  .industry-news-main-img {
+    display: none;
+  }
+
+  .section-info-headings {
+    font-size: 1.3rem;
+    color: var(--cream);
   }
 }
 
-@media screen and (max-width: 1160px) {
-  .industry-news-main-img {
-    display: none;
+@media screen and (max-width: 600px) {
+  app-news-article {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media screen and (max-width: 485px) {
+  app-news-article {
+    grid-template-columns: 1fr;
+    width: 100vw;
+    justify-items: center;
+    padding: 1%;
+    grid-column: 1;
   }
 }

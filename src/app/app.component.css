@@ -150,6 +150,12 @@ app-customer-section {
 @media screen and (max-width: 1160px) {
   app-industry-news {
     grid-template-columns: 1fr;
+    background: url(../assets/images/kelly-sikkema-WvVyudMd1Es-unsplash.jpg)
+      no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
   }
 }
 
