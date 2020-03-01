@@ -34,12 +34,12 @@
 
 .customer-card-content p {
   text-align: left;
-  font-size: 0.95`em;
+  font-size: 0.95em;
 }
 
 .customer-card-title {
   text-align: left;
-  color: var(--teal);
+  color: var(--darkBlue);
 }
 
 app-button {
