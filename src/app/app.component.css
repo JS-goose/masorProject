@@ -147,13 +147,13 @@ app-customer-section {
   width: 100%;
 }
 
-@media (max-width: 1160px) {
+@media screen and (max-width: 1160px) {
   app-industry-news {
     grid-template-columns: 1fr;
   }
 }
 
-@media (max-width: 800px) {
+@media screen and (max-width: 800px) {
   app-mission {
     grid-template-columns: 1fr;
     justify-items: center;

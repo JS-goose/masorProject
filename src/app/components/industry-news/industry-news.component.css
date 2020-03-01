@@ -29,20 +29,20 @@ app-news-article {
   max-width: 100%;
 }
 
-@media (max-width: 1300px) {
+@media screen and (max-width: 1300px) {
   .industry-news-main-img {
     margin-right: 5%;
     width: 80%;
   }
 }
 
-@media (max-width: 1160px) {
+@media screen and (max-width: 1160px) {
   app-news-article {
     grid-template-columns: repeat(3, 1fr);
   }
 }
 
-@media (max-width: 1160px) {
+@media screen and (max-width: 1160px) {
   .industry-news-main-img {
     display: none;
   }
