@@ -65,10 +65,11 @@
 
 @media screen and (max-width: 600px) {
   .top-cta-card {
-    width: 100%;
+    width: 80%;
     height: 9em;
   }
+
   .top-cta-card:first-of-type {
-    margin: 0 1% 1% 1%;
+    margin: 0 5% 1% 1%;
   }
 }

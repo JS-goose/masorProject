@@ -47,11 +47,21 @@ app-cta-card {
 
   .cta-container h1 {
     font-size: 2rem;
+    width: 60%;
+    text-align: center;
+    align-self: center;
   }
   .cta-container-content {
     font-size: 1rem;
     line-height: 1.2em;
     padding: 5px;
+    width: 85%;
+    align-self: center;
+    margin-bottom: 10%;
+  }
+
+  .cta-container-content h4 {
+    font-weight: 400;
   }
 }
 
