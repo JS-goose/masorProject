@@ -47,6 +47,10 @@
   text-decoration-thickness: 3px;
 }
 
+.social-links:hover {
+  color: var(--teal);
+}
+
 .copyright-container {
   width: 100%;
   align-items: flex-end;

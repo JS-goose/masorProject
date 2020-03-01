@@ -13,11 +13,13 @@
       <a
         *ngFor="let link of bottomSocialLinks; let i = index"
         href="{{ link.link }}"
-        class="footer-anchor-links"
+        class="footer-anchor-links social-links"
         [attr.data-index]="i"
         innerHTML="{{ link.src }}"
       ></a>
-      <img src="../../../assets/images/logo.png" class="logo" alt="" />
+      <a href="/">
+        <img src="../../../assets/images/logo.png" class="logo" alt="" />
+      </a>
     </div>
   </article>
   <section class="copyright-container">
