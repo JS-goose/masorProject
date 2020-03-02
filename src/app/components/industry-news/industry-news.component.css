@@ -47,14 +47,20 @@ app-news-article {
   }
 
   .section-info-headings {
-    font-size: 1.3rem;
+    font-size: 1.5rem;
     color: var(--cream);
+    background-color: var(--darkBlue);
+    padding: 2px;
   }
 }
 
 @media screen and (max-width: 600px) {
   app-news-article {
     grid-template-columns: repeat(2, 1fr);
+  }
+
+  .section-identifier {
+    grid-column: 1;
   }
 }
 

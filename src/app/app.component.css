@@ -113,9 +113,10 @@ app-industry-news {
 
 app-ideas-section {
   display: grid;
-  grid-template-columns: 0.5fr 0.5fr;
+  grid-template-columns: 1fr 1fr;
   margin: 6%;
   align-items: center;
+  column-gap: 5%;
 }
 
 app-services-section {
@@ -163,5 +164,10 @@ app-customer-section {
   app-mission {
     grid-template-columns: 1fr;
     justify-items: center;
+  }
+
+  app-ideas-section {
+    display: flex;
+    flex-direction: column;
   }
 }
