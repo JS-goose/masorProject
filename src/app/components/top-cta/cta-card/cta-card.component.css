@@ -9,9 +9,12 @@
   margin-right: 20px;
 }
 
-.top-cta-card h3,
-.top-cta-card p {
+.top-cta-card h3 {
   padding: 10px;
+}
+
+.cta-card-desc {
+  padding-right: 15px;
 }
 
 .cta-card-topper {
@@ -57,9 +60,13 @@
     margin-top: 4%;
   }
 
-  .top-cta-card h3,
-  .top-cta-card p {
+  .top-cta-card h3 {
     padding: 0;
+  }
+
+  .cta-card-title {
+    font-size: 0.9rem;
+    padding-right: 0.8rem;
   }
 }
 
@@ -70,6 +77,12 @@
   }
 
   .top-cta-card:first-of-type {
-    margin: 0 5% 1% 1%;
+    margin: 0 1% 1% 1%;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .cta-card-desc {
+    font-size: 0.99rem;
   }
 }
