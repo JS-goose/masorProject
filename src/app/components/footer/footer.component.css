@@ -54,7 +54,6 @@
 .copyright-container {
   width: 100%;
   align-items: flex-end;
-  padding-bottom: 1%;
   display: flex;
   justify-content: space-around;
   margin-top: 5rem;
@@ -76,4 +75,28 @@
   text-decoration-thickness: 3px;
   text-decoration-color: var(--teal);
   transition: all 0.2s ease-in-out;
+}
+
+@media screen and (max-width: 800px) {
+  .footer-anchor-links {
+    font-size: 1.1rem
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .copyright-container {
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1rem;
+  }
+
+  .footer-section {
+    height: 100%;
+  }
+}
+
+@media screen and (max-width: 390px) {
+  .footer-anchor-links {
+    font-size: 0.95rem;
+  }
 }
