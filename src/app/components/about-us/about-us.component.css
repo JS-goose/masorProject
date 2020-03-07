@@ -38,7 +38,7 @@
 }
 
 @media (max-width: 990px) {
-    .section-title-container {
-        display: none;
-    }
+  .section-title-container {
+    display: none;
+  }
 }
