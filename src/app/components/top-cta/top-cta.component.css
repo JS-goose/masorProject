@@ -95,4 +95,11 @@ app-cta-card {
     font-size: 1rem;
     width: 100%;
   }
+
+  .cta-container-content {
+    padding: 0;
+    font-size: 0.95rem;
+    line-height: normal;
+    margin: 0;
+  }
 }

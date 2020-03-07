@@ -85,4 +85,14 @@
   .cta-card-desc {
     font-size: 0.99rem;
   }
+
+  .top-cta-card {
+    width: 100%;
+    height: 100%
+  }
+
+  .cta-card-title {
+    font-size: 0.85rem;
+    padding-right: 0;
+  }
 }
