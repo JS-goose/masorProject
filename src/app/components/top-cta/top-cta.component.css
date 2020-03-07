@@ -89,3 +89,10 @@ app-cta-card {
     padding: 10px;
   }
 }
+
+@media screen and (max-width: 390px) {
+  .cta-container h1 {
+    font-size: 1rem;
+    width: 100%;
+  }
+}

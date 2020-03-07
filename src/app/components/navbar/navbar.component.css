@@ -42,7 +42,7 @@
 
 .logo {
   width: 8em;
-  padding: 2px 0 2px 2px; 
+  padding: 2px 0 2px 2px;
 }
 
 .nav-links {
@@ -113,5 +113,16 @@
   .phone-number {
     padding: 0 10px;
     font-size: 1rem;
+  }
+}
+
+@media screen and (max-width: 390px) {
+  .mobile-toggle-right {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .logo {
+    width: 6em;
   }
 }

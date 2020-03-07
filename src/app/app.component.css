@@ -161,6 +161,14 @@ app-customer-section {
 }
 
 @media screen and (max-width: 800px) {
+  p {
+    font-family: "Roboto", Poppins, sans-serif;
+    font-size: 1rem;
+    line-height: normal;
+    font-weight: 400;
+    letter-spacing: normal;
+  }
+
   app-mission {
     grid-template-columns: 1fr;
     justify-items: center;
@@ -173,5 +181,11 @@ app-customer-section {
 
   app-industry-news {
     height: 100%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  p {
+    font-size: 0.9rem;
   }
 }
