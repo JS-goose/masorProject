@@ -1,9 +1,4 @@
 <div class="top-nav-container">
-  <img
-    src="../../../assets/images/featherLogo.png"
-    alt="annuity market pro with a bar graph"
-    class="logo"
-  />
   <a
     *ngFor="let link of topNavLinks"
     href="{{ link.link }}"
@@ -13,6 +8,13 @@
 </div>
 
 <ul class="nav-ul">
+  <li>
+    <img
+      src="../../../assets/images/featherLogo.png"
+      alt="annuity market pro with a bar graph"
+      class="logo"
+    />
+  </li>
   <li *ngFor="let link of navLinks" class="nav-links">
     <a href="{{ link.link }}" class="nav-links-anchor">{{ link.name }}</a>
   </li>
@@ -27,7 +29,7 @@
   <div class="mobile-toggle-right">
     <span class="phone-number">☎ 713-348-9994</span>
     <button class="mobile-menu-toggle">
-      <img src="../../../assets//icons/menu_open.svg" alt="open menu">
+      <img src="../../../assets//icons/menu_open.svg" alt="open menu" />
     </button>
   </div>
 </div>
