@@ -20,3 +20,33 @@
 .button {
   margin-top: 10%;
 }
+
+@media screen and (max-width: 800px) {
+  .section-info-headings {
+    display: none;
+  }
+
+  .services-content {
+    width: 100%;
+  }
+
+  .services-title {
+    font-size: 1.9rem;
+    text-align: center;
+  }
+
+  .services-section-img-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .services-section-img {
+    width: 65%;
+  }
+
+  .button {
+    text-align: center;
+    margin-top: 10%;
+  }
+}

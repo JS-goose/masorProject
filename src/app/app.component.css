@@ -174,7 +174,7 @@ app-customer-section {
     justify-items: center;
   }
 
-  app-ideas-section {
+  app-ideas-section, app-services-section {
     display: flex;
     flex-direction: column;
   }

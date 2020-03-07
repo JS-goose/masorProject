@@ -14,7 +14,7 @@
   grid-row: 2;
   align-self: center;
   justify-self: center;
-  margin-left: 5%;
+  margin-left: 15%;
 }
 
 .bright-ideas-img {
@@ -41,7 +41,19 @@
     text-align: center;
   }
 
+  .bright-ideas-img-container {
+    width: 100%; 
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+  }
+
   .bright-ideas-img {
     width: 65%;
+  }
+
+  .button {
+    text-align: center;
+    margin-top: 10%;
   }
 }
