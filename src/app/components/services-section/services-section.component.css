@@ -28,11 +28,12 @@
 
   .services-content {
     width: 100%;
+    text-align: center;
+    padding-top: 10%;
   }
 
   .services-title {
     font-size: 1.9rem;
-    text-align: center;
   }
 
   .services-section-img-container {
